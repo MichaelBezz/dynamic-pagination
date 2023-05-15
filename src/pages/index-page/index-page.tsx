@@ -1,3 +1,4 @@
+import Pagination from '../../components/pagination/pagination';
 import './index-page.css';
 
 
@@ -8,7 +9,7 @@ function IndexPage(): JSX.Element {
 
       <main>
         <div className="container">
-
+          <Pagination />
         </div>
       </main>
 

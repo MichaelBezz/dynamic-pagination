@@ -1,0 +1,20 @@
+.pagination {
+  padding: 30px 0;
+}
+
+.pagination__title {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 36px;
+  line-height: 1.5;
+}
+
+.pagination__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pagination__item:not(:last-child) {
+  margin-bottom: 10px;
+}
